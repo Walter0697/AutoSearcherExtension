@@ -226,7 +226,7 @@ function AddItemForm({
             <StyledDialogContent>
                 <form onSubmit={handleSubmit}>
                     <Grid container spacing={2} pt={3}>
-                        <Grid item xs={6}>
+                        <Grid item xs={12}>
                             <TextField
                                 fullWidth
                                 label="Name"
@@ -236,7 +236,7 @@ function AddItemForm({
                                 required
                             />
                         </Grid>
-                        <Grid item xs={6}>
+                        <Grid item xs={12}>
                             <TextField
                                 fullWidth
                                 label="Value"

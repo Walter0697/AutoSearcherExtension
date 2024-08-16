@@ -79,9 +79,7 @@ function DisplayList({ selectedItem, textboxId }: DisplayListProps) {
                                 justifyContent={'flex-start'}
                                 alignItems={'center'}
                             >
-                                <Typography>
-                                    Value: {selectedItem.value}
-                                </Typography>
+                                <Typography>{selectedItem.value}</Typography>
                             </Grid>
                             <Grid item xs={6}>
                                 <Button
