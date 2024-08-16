@@ -1,0 +1,19 @@
+body,
+#root {
+    width: 100%;
+    height: 600px; /* Fixed height for the extension */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+}
+
+#root {
+    padding: 5px;
+    text-align: center;
+    background: rgb(212, 255, 194);
+}
